@@ -98,7 +98,7 @@ const CommentSection = () => {
             <option value="1">★☆☆☆☆ (1)</option>
             <option value="0">☆☆☆☆☆ (0)</option>
           </select>
-          <button type="submit" disabled={isLoading}>
+          <button className="button-login shadow" type="submit" disabled={isLoading}>
             {isLoading ? 'Enviando...' : 'Enviar Comentário'}
           </button>
         </div>
